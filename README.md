@@ -64,6 +64,11 @@ library(volesti)
 library(devtools)
 #devtools::install_github("dvats/mcmcse")
 
+# p dimension of the estimation problem.
+# m number of chains.
+# epsilon relative precision level.
+# delta desired delta value - the cutoff for potential scale reduction factor. If specified, then the corresponding \code{epsilon} is returned.
+# alpha significance level for confidence regions for the Monte Carlo estimators.
 
 target.psrf <- function(p, m, epsilon = .05, delta = NULL, alpha=.05){
   if(is.null(delta)){
