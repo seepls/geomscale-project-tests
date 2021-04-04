@@ -134,6 +134,14 @@ $psrf
 [1] 1.009191
 $epsilon
 [1] 0.05
+```
+
+```
+$psrf
+[1] 1.030317
+
+$epsilon
+[1] 0.05
 '''
 ```
 # Implement Gibbs sampler for uniform sampling from a polytope in C++ following the code structure of volesti.
