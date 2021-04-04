@@ -135,7 +135,7 @@ $psrf
 $epsilon
 [1] 0.05
 ```
-
+![png](BiW500.png)
 ```
 $psrf
 [1] 1.030317
