@@ -94,6 +94,7 @@ for (step in c(1,20,100,150)){
   }
   
 }
+#The `potential scale reduction factor' (PSRF) is an estimated factor by which the scale of the current distribution for the target distribution might be reduced if the simulations were continued for an infinite number of iterations. Each PSRF declines to 1.1 as the number of iterations approaches infinity.
 
 # output : 
 ```
