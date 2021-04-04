@@ -29,7 +29,7 @@ target.psrf <- function(p, m, epsilon = .05, delta = NULL, alpha=.05){
 
 
 
-for (step in c(1,20,100,150)){
+for (step in c(1,20,100,150,500)){
   for (walk in c("BiW")){
     P <- gen_cube(100, 'H')
     points1 <- sample_points(P,n=1000,random_walk = list("walk" = walk, "walk_length" = step))
@@ -68,6 +68,13 @@ $epsilon
 c= 150
 $psrf
 [1] 1.009191
+
+$epsilon
+[1] 0.05
+
+c=500
+$psrf
+[1] 1.030317
 
 $epsilon
 [1] 0.05
