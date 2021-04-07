@@ -151,4 +151,4 @@ $epsilon
 [1] 0.05
 '''
 ```
-# Implement Gibbs sampler for uniform sampling from a polytope in C++ following the code structure of volesti.
+# Implement Gibbs sampler for uniform sampling in a polytope in C++ following the code structure of volesti.
