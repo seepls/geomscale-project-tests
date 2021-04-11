@@ -1,15 +1,9 @@
 # Sample approximate uniformly points from a random generated polytope using the implmented in volesti random walks, for various walk lengths.
 # For each sample compute the PSRF and report on the results.
 
-# Sample approximate uniformly points
-# from a random generated polytope using the implmented in volesti random walk
-# for various walk lengths
-# For each sample compute the PSRF and report on the results.
-
 library(ggplot2)
 library(volesti)
 library(devtools)
-#devtools::install_github("dvats/mcmcse")
 
 # p dimension of the estimation problem.
 # m number of chains.
