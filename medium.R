@@ -22,7 +22,7 @@ target.psrf <- function(p, m, epsilon = .05, delta = NULL, alpha=.05){
   }
   
   del <- sqrt(1 + m/Tee) - 1
-  arr <- 1 + del  
+  arr <- 1 - del  
   list(psrf = arr, epsilon = epsilon)
 }
 
