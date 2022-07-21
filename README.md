@@ -1,5 +1,5 @@
 #  Visualize sampling in a polytope 
-```R
+```R 
 #sampling in a cube
 library(volesti)
 library(ggplot2)
